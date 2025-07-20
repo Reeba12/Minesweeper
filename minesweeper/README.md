@@ -1,17 +1,15 @@
 # Minesweeper NestJS API
 
-A RESTful API for a Minesweeper game built with NestJS and MongoDB.
+A RESTful API for a Minesweeper built with NestJS and MongoDB.
 
 ## Description
 
-This project provides a backend API for a Minesweeper game, allowing players to create game boards, make moves, and track game state. The API is built using NestJS framework with TypeScript and uses MongoDB for data persistence.
+This project provides a backend API for a Minesweeper, allowing players to create and track boards. The API is built using NestJS framework with TypeScript and uses MongoDB for data persistence.
 
 ## Features
 
-- Create new Minesweeper game boards
-- Make moves on the board (reveal cells, flag mines)
-- Track game state and progress
-- RESTful API endpoints for game management
+- Create new Minesweeper boards
+- RESTful API endpoints for minesweeper
 
 ## Prerequisites
 
@@ -24,7 +22,7 @@ This project provides a backend API for a Minesweeper game, allowing players to 
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd minesweeper-nestjs
+cd minesweeper
 ```
 
 2. Install dependencies:
@@ -53,9 +51,9 @@ npm run build
 
 ## API Endpoints
 
-The API provides endpoints for managing Minesweeper game boards:
+The API provides endpoints for managing Minesweeper boards:
 
-- `POST /boards` - Create a new game board
+- `POST /boards` - Create a new board
 - `GET /boards/recent` - Get recent boards
 - `GET /boards` - Get all boards with pagination and search
 

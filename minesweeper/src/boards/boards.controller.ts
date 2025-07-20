@@ -1,6 +1,6 @@
 import { Controller, Post, Body, Get, Query } from '@nestjs/common';
 import { BoardsService } from './boards.service';
-import { CreateBoardDto } from './create-board.dto';
+import { CreateBoardDto } from './boards.dto';
 
 @Controller('boards')
 export class BoardsController {
